@@ -1,0 +1,30 @@
+table th,td {
+    padding-left: 2px;
+    padding-right: 2px;
+    border: 1px black solid;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+table th {
+    width: 130px;
+    text-align: center;
+}
+
+table td {
+    text-align: center;
+}
+
+.input_box {
+    background: #EEEEEE;
+    text-align: center;
+    font-size: 16px;
+}
+
+.col1 {
+    text-align: left;
+}
+
+#links {
+    padding-bottom: 20px;
+}
