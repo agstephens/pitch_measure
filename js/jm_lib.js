@@ -4,7 +4,7 @@ var labels = ['Length (A)', 'Width (B)', 'Corner to box (C)', 'Box width (D)', '
 var m9v9 = [80.0, 50.0, 9.0, 32.0, 13.0, 9.0, 25.0, 64.0, 47.2, 34.5, 20.6];
 var m7v7 = [60.0, 40.0, 11.0, 18.0, 10.0, 8.0, 20.0, 50.0, 36.1, 20.6, 13.5];
 
-var scaled = [0,0,0,0,0,0,0,0,0,0,0];
+var scaled = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 var round_dp = 2;
 
 var inputs = null;
@@ -42,7 +42,7 @@ function update(id) {
         var item = ids[i];
         
         scaled[i] = scale_factor * inputs[i];
-        $("#result_" + item).html(Math.round(scaled[i], round_dp));
+        $("#result_" + item).html((scaled[i]).toFixed(round_dp));
         
     }    
 }
